@@ -124,57 +124,33 @@
   </section>
 
 
-  <!-- 3번 화면 -->
-  <section class="video-section">
-    <div class="video-text">
-      <h2>처음이라 어려우신가요?</h2>
-      <p>유튜브 영상 보고<br>따라하면 쉽게 개통할 수 있어요!</p>
+ <!-- 3번 화면 -->
+<section class="video-section">
+  <div class="video-text">
+    <h2>처음이라 어려우신가요?</h2>
+    <p>유튜브 영상 보고<br>따라하면 쉽게 개통할 수 있어요!</p>
 
-      <ul>
-        <li>유심 구매부터 개통까지</li>
-        <li>단계별 자세한 설명</li>
-        <li>실제 화면 그대로 안내</li>
-      </ul>
+    <ul>
+      <li>유심 구매부터 개통까지</li>
+      <li>단계별 자세한 설명</li>
+      <li>실제 화면 그대로 안내</li>
+    </ul>
 
-<a href="https://youtu.be/_sekLwwUldo?si=K-OZt-IAHnLEv5l2" target="_blank" rel="noopener" class="video-link">전체 영상 보기 ▶</a>
-    </div>
+    <a href="https://youtu.be/_sekLwwUldo?si=K-OZt-IAHnLEv5l2" target="_blank" rel="noopener" class="video-link">
+      유튜브에서 크게 보기 ▶
+    </a>
+  </div>
 
-    <div class="video-card">
-      <div class="video-badge">초보자도 따라하기 쉬운!</div>
-      <h3>선불폰 개통 방법</h3>
-      <h4>5분 완성 가이드</h4>
-      <div class="play-button">▶</div>
-      <div class="video-phone">📱</div>
-    </div>
-  </section>
-
-
-  <!-- 4번 화면 -->
-  <section class="support-section">
-    <h2>그래도 어렵다면?</h2>
-    <p>선불폰스튜디오에서 도와드립니다!</p>
-
-    <div class="support-wrap">
-      <div class="support-card">
-        <div class="support-icon blue-icon">☎</div>
-        <div>
-          <h3>전화 상담</h3>
-          <p>평일 09:00 ~ 18:00</p>
-          <a href="#" data-call>010-2666-3338</a>
-        </div>
-      </div>
-
-      <div class="support-card">
-        <div class="support-icon yellow-icon">TALK</div>
-        <div>
-          <h3>카카오톡 상담</h3>
-          <p>실시간 빠른 답변</p>
-          <a href="#" data-kakao>@선불폰스튜디오</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
+  <div class="video-embed-card">
+    <iframe 
+      src="https://www.youtube.com/embed/_sekLwwUldo"
+      title="선불폰 개통 방법 영상"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+  </div>
+</section>
 
   <!-- 하단 고정 버튼 -->
   <div class="sticky-cta">
@@ -186,6 +162,20 @@
 
 
 <style>
+.video-embed-card {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 18px 35px rgba(0, 70, 200, 0.18);
+  background: #000;
+}
+
+.video-embed-card iframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
   .prepaid-landing {
     max-width: 1100px;
     margin: 0 auto;
